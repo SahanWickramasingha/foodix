@@ -1,0 +1,5 @@
+import Link from "next/link";
+
+export default function LoginPage() {
+  return <section className="container-shell py-10 sm:py-14"><div className="glass-panel mx-auto max-w-md rounded-[28px] p-7"><div className="text-center"><p className="text-xs font-black uppercase tracking-[0.24em] text-orange-500">Welcome back</p><h1 className="mt-3 text-3xl font-black">Login to Foodix</h1></div><form className="mt-7 grid gap-4"><label className="grid gap-2 text-sm font-semibold text-zinc-300">Email<input type="email" placeholder="you@example.com" className="rounded-xl border border-white/10 bg-black px-4 py-3 outline-none focus:border-orange-500/40" /></label><label className="grid gap-2 text-sm font-semibold text-zinc-300">Password<input type="password" placeholder="••••••••" className="rounded-xl border border-white/10 bg-black px-4 py-3 outline-none focus:border-orange-500/40" /></label><button className="mt-2 rounded-xl bg-orange-500 py-3.5 text-sm font-extrabold text-black">Login</button></form><p className="mt-5 text-center text-sm text-zinc-500">New here? <Link href="/contact" className="font-bold text-orange-400">Create an account</Link></p></div></section>;
+}
