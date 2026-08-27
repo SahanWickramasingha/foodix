@@ -88,5 +88,5 @@ export const menuItems: FoodItem[] = [
     description: "Crisp seasonal greens with a citrus dressing.",
   },
 ];
-
+// This array contains the different categories of food items available in the menu.
 export const categories = ["All", "Pizza", "Burger", "Rice", "Pasta", "Dessert", "Drinks", "Healthy"] as const;
