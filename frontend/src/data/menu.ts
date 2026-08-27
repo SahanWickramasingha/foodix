@@ -1,5 +1,7 @@
 import { FoodItem } from "@/types/food";
 
+
+// This file contains the menu items and categories for the food ordering application.
 export const menuItems: FoodItem[] = [
   {
     id: 1,
